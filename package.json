@@ -1,0 +1,30 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebnun/imagesearch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sebnun/imagesearch/issues"
+  },
+  "homepage": "https://github.com/sebnun/imagesearch#readme",
+  "devDependencies": {
+    "eslint": "^3.5.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^11.0.0",
+    "eslint-plugin-import": "^1.14.0",
+    "eslint-plugin-jsx-a11y": "^2.2.1",
+    "eslint-plugin-react": "^6.2.0",
+    "mongodb": "^2.2.9",
+    "node-bing-api": "^2.4.1"
+  }
+}
