@@ -8,7 +8,7 @@ Image search abstraction layer using Node
 2. I can paginate through the responses by adding a ?offset=2 parameter to the URL.
 3. I can get a list of the most recently submitted search strings.
 
-# Example
+##Example
 
 * https://injavascript.com/imagesearch/cats
 * https://injavascript.com/imagesearch/blue%20house?offset=3
