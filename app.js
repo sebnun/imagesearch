@@ -32,8 +32,6 @@ http.createServer((req, res) => {
   } else if (u.path !== '/favicon.ico' && u.path !== '//favicon.ico') {
     const query = decodeURI(u.pathname.substring(2));
     const off = u.query.offset ? u.query.offset * 10 : 0;
-    console.log(query);
-    console.log(off);
 
     MongoClient.connect(dburl, (err, db) => {
       if (err) throw err;
